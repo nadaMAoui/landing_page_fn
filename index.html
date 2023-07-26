@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Fintella</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-image: url('background-image.jpg');
+      background-size: cover;
+      background-position: center;
+      overflow-x: hidden
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      height: 20px;
+      padding: 20px;
+      display: flex;
+      width: 100%;
+      align-items: center
+    }
+
+    .container {
+      margin: 0 auto;
+      padding: 20px;
+      width: 80%;
+      display: flex;
+      flex-direction: column;
+      align-items: center
+    }
+
+    h1 {
+      margin-top: 0;
+    }
+
+    nav {
+      width: 100%
+    }
+
+    nav ul {
+      width: 80%;
+      display: flex;
+      flex-direction: row;
+      list-style-type: none;
+      justify-content: space-between
+    }
+
+    p {
+      margin-bottom: 20px;
+    }
+
+    .cta-button {
+      display: inline-block;
+      background-color: #4CAF50;
+      color: #fff;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 4px;
+      transition: background-color 0.3s;
+    }
+
+    a {
+      color: inherit;
+    }
+
+    .cta-button:hover {
+      background-color: #45a049;
+    }
+
+    footer {
+      background-color: #f2f2f2;
+      height: 5px;
+      text-align: center;
+    }
+
+    .background-image {
+      color: white;
+      width: 100vw;
+      background-image: url('pics/963f1158-5d29-4e32-a4f9-a5b152720c70.jpeg');
+      background-size: 100% auto;
+      background-position: center;
+    }
+
+    section {
+      padding: 40px 0;
+    }
+
+    section h2,
+    section p {
+      color: #fff;
+    }
+
+    section#welcome {
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    section#about {
+      background-color: rgba(0, 0, 0, 0.7);
+    }
+
+    section#services {
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    section#contact {
+      background-color: rgba(0, 0, 0, 0.7);
+    }
+
+    .features {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between
+    }
+
+    .features div {
+      margin-right: 16px;
+    }
+
+    .feature-image {
+      width: 200px;
+      height: 200px;
+      margin-left: 5%
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .formElement {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      margin-top: 8px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#services">Our features</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div div class="background-image">
+
+    <section id="welcome">
+      <div class="container">
+        <h2>Welcome to Fintella.</h2>
+        <p>Fintella, is a comprehensive financial data analysis application. The banner image showcases the sleek and
+          intuitive user interface of our platform, featuring interactive charts and visualizations.</p>
+        <a class="cta-button" href="www.app_url/login">Get Started</a>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <h2>About Us</h2>
+        <p>The story behind my decision to work on the Fintella project is deeply rooted in personal experiences and a
+          strong passion for empowering individuals in their financial journeys. Growing up, I witnessed the struggles
+          that many people face when it comes to managing their finances.
+          Whether it was understanding complex financial concepts, tracking expenses, or making informed investment
+          decisions, the lack of accessible and user-friendly tools often left individuals feeling overwhelmed and
+          uncertain about their financial futures.
+          I realized that there was a significant gap in the market for a comprehensive financial data analysis platform
+          that could simplify the process of managing finances and provide valuable insights to users.
+          This realization, coupled with my background in technology and finance, fueled my determination to create a
+          solution that would address this pressing need. With a clear vision in mind, I embarked on the journey to
+          develop Fintella.
+          I wanted to create a platform that would not only streamline financial data analysis but also empower
+          individuals with the knowledge and tools to make informed financial decisions. Throughout the development
+          process, I encountered various challenges and obstacles. However, my unwavering belief in the transformative
+          power of technology and its ability to revolutionize the financial landscape kept me motivated. I collaborated
+          with a talented team, leveraging their expertise in front-end development, back-end systems, and data analysis
+          to bring the vision of Fintella to life.
+          But what truly inspired me to pour my heart and soul into this project was the thought of making a positive
+          impact on people's lives. I envisioned individuals gaining confidence and control over their finances,
+          businesses making informed strategic decisions, and financial professionals accessing powerful tools to serve
+          their clients better. Fintella became more than just a project; it became a mission to democratize financial
+          data analysis and empower individuals from all walks of life.
+        </p>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="container">
+        <h2>Our Features</h2>
+        <div class="features">
+          <div>
+            <h3>Real-time Financial Data Analysis</h3>
+            <img class="feature-image" src="pics/analysis.png" alt="analysis">
+            <p>Fintella provides real-time analysis of financial data, allowing users to track their income, expenses,
+              and investments. With interactive charts and visualizations, users can gain valuable insights into their
+              financial health and make informed decisions</p>
+          </div>
+          <div>
+
+            <h3>Customizable Financial Planning Tools</h3>
+            <img class="feature-image" src="pics/customize.jpeg" alt="Customizable Financial Planning Tools">
+            <p>Fintella offers a range of customizable financial planning tools to help users set and achieve their
+              financial goals. From budgeting and savings plans to retirement planning and debt management, users can
+              tailor these tools to their specific needs and receive personalized recommendations.</p>
+
+          </div>
+          <div>
+
+            <h3>Investment Portfolio Analysis</h3>
+            <img class="feature-image" src="pics/custom.jpeg" alt="Investment Portfolio Analysis">
+            <p>Fintella includes robust features for analyzing investment portfolios. Users can import their
+              investment data and access detailed performance metrics, risk assessment, and portfolio diversification
+              analysis. With these insights, users can optimize their investment strategies and maximize their
+              returns.</p>
+
+          </div>
+        </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h2>Contact Us</h2>
+        <p>Fill out the form below to get in touch with us:</p>
+        <form>
+          <div class="formElement">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="formElement">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+
+          <div class="formElement">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <button class="cta-button" style="margin-top: 8px" type="submit">Submit</button>
+        </form>
+      </div>
+    </section>
+  </div>
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 Fintella. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+
+</html>
